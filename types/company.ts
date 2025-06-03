@@ -6,6 +6,7 @@ export interface EnrichedPost {
   
   export interface Company {
     id: string;
+    numerical_id: number; // Included to support compatibility with mock API
     name: string;
     industry: string;
     enrichedPosts: null | EnrichedPost[];

@@ -4,18 +4,21 @@ import { Company } from '../../../types/company';
 const companies: Company[] = [
   {
     id: 'company_1',
+    numerical_id: 1,
     name: 'Acme Inc',
     industry: 'Manufacturing',
     enrichedPosts: null,
   },
   {
     id: 'company_2',
+    numerical_id: 2,
     name: 'Globex Corp',
     industry: 'Finance',
     enrichedPosts: null,
   },
   {
     id: 'company_3',
+    numerical_id: 3,
     name: 'Initech',
     industry: 'Technology',
     enrichedPosts: null,
